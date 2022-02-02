@@ -22,8 +22,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://testapp.readthedocs.io/",
-    author="Adriana Sierra",
-    author_email="adriana.sierral@duke.edu",
+    author="Jake Vestal",
+    author_email="jmvestal@gmail.com",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
