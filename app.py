@@ -10,7 +10,7 @@ app.layout = html.Div([
     html.Button('Submit', id='button'),
     html.Div(id='output-container-button',
              children='Please submit a value'),
-    html.Img(src="assets/FX.jpg")
+    html.Img(src="assets/image.jpg")
 ])
 
 @app.callback(
