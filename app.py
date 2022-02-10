@@ -5,6 +5,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 app.layout = html.Div([
+    html.H1('You Passed'),
     github_info_header(),
     html.Div(dcc.Input(id='input-box', type='text')),
     html.Button('Submit', id='button'),
